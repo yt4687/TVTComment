@@ -1,0 +1,124 @@
+# ƒjƒRƒjƒRÀ‹µ‚ÌÀ‹µIDİ’è
+# ‚±‚±‚Åİ’è‚³‚ê‚½ƒ`ƒƒƒ“ƒlƒ‹‚Íchannels.txt‚É‚à“o˜^‚³‚ê‚Ä‚¢‚é•K—v‚ª‚ ‚é
+#
+#target	value	jkid
+#
+# target‚Ì’l‚ªvalue‚É“™‚µ‚¢‚È‚çÀ‹µID‚ğjkid‚ÉƒZƒbƒg‚·‚é
+# (target‚ªflags‚È‚çvalue‚Æ‚ÌƒrƒbƒgƒAƒ“ƒh‚ª0‚Å‚È‚¢‚È‚ç)
+# target‚ªnsid‚Ì‚Æ‚«value‚Í nid<<16 | sid ‚ÌŒ`®
+# jkid‚Í0‚È‚ç‘Î‰•t‚¯‚ğ‰ğœ‚·‚é
+# ‰º‚É‘‚¢‚½‚à‚Ì‚Íã‚æ‚è—Dæ‚³‚ê‚é
+
+# NHK‘‡
+flags	1	1
+# NHKEƒeƒŒ
+flags	2	2
+# “ú–{ƒeƒŒƒrŒn
+flags	4	4
+# ƒeƒŒƒr’©“úŒn
+flags	32	5
+# TBSŒn
+flags	8	6
+# ƒeƒŒƒr“Œ‹Œn
+flags	64	7
+# ƒtƒWƒeƒŒƒrŒn
+flags	16	8
+
+# ‚s‚n‚j‚x‚n ‚l‚w
+nsid	0x000F5C38	9
+nsid	0x000F5C3A	9
+
+# ƒeƒŒ‹Ê
+nsid	0x000F7438	10
+# ‚”‚–‚‹
+nsid	0x000F6038	11
+# ƒ`ƒoƒeƒŒƒr
+nsid	0x000F6C38	12
+# •ú‘—‘åŠw
+nsid	0x000F0440	231
+
+
+# ‚m‚g‚j‚a‚r‚P
+nsid	0x00040065	101
+# ‚m‚g‚j‚a‚r‚P
+nsid	0x00040066	101
+# ‚m‚g‚j‚a‚rƒvƒŒƒ~ƒAƒ€
+nsid	0x00040067	103
+# ‚m‚g‚j‚a‚rƒvƒŒƒ~ƒAƒ€
+nsid	0x00040068	103
+# ‚a‚r“úƒeƒŒ
+nsid	0x0004008d	141
+# ‚a‚r“úƒeƒŒ
+nsid	0x0004008e	141
+# ‚a‚r“úƒeƒŒ
+nsid	0x0004008f	141
+# ‚a‚r’©“ú
+nsid	0x00040097	151
+# ‚a‚r’©“ú‚Q
+nsid	0x00040098	151
+# ‚a‚r’©“ú‚R
+nsid	0x00040099	151
+# ‚a‚r|‚s‚a‚r
+nsid	0x000400a1	161
+# ‚a‚r|‚s‚a‚r
+nsid	0x000400a2	161
+# ‚a‚r|‚s‚a‚r
+nsid	0x000400a3	161
+# ‚a‚rƒeƒŒ“Œ
+nsid	0x000400ab	171
+# ‚a‚rƒeƒŒ“Œ‚Q
+nsid	0x000400ac	171
+# ‚a‚rƒeƒŒ“Œ‚R
+nsid	0x000400ad	171
+# ‚a‚rƒtƒW
+nsid	0x000400b5	181
+# ‚a‚rƒtƒWE‚P‚W‚Q
+nsid	0x000400b6	181
+# ‚a‚rƒtƒWE‚P‚W‚R
+nsid	0x000400b7	181
+# ‚v‚n‚v‚n‚vƒvƒ‰ƒCƒ€
+nsid	0x000400bf	191
+# ‚v‚n‚v‚n‚vƒ‰ƒCƒu
+nsid	0x000400c0	192
+# ‚v‚n‚v‚n‚vƒVƒlƒ}
+nsid	0x000400c1	193
+# ƒXƒ^[Eƒ`ƒƒƒ“ƒlƒ‹‚P
+nsid	0x000400c8	200
+# ƒXƒ^[Eƒ`ƒƒƒ“ƒlƒ‹‚Q
+nsid	0x000400c9	201
+# ƒXƒ^[Eƒ`ƒƒƒ“ƒlƒ‹‚R
+nsid	0x000400ca	202
+# ‚a‚r‚P‚PƒCƒŒƒuƒ“
+nsid	0x000400d3	211
+# ‚a‚r‚P‚QƒgƒDƒGƒ‹ƒr
+nsid	0x000400de	222
+# ‚a‚rƒLƒƒƒ“ƒpƒX‚…‚˜
+nsid	0x000400e7	231
+# ‚a‚rƒLƒƒƒ“ƒpƒX‚‚
+nsid	0x000400e8	231
+# ƒOƒŠ[ƒ“ƒ`ƒƒƒ“ƒlƒ‹
+nsid	0x000400ea	234
+# ‚a‚rƒAƒjƒ}ƒbƒNƒX
+nsid	0x000400ec	236
+# ‚e‚n‚wƒXƒ|[ƒcƒGƒ“ƒ^
+nsid	0x000400ee	238
+# ‚a‚rƒXƒJƒp[I
+nsid	0x000400f1	241
+# ‚i@‚r‚o‚n‚q‚s‚r@‚P
+nsid	0x000400f2	242
+# ‚i@‚r‚o‚n‚q‚s‚r@‚Q
+nsid	0x000400f3	243
+# ‚i@‚r‚o‚n‚q‚s‚r@‚R
+nsid	0x000400f4	244
+# ‚i@‚r‚o‚n‚q‚s‚r@‚S
+nsid	0x000400f5	245
+# ‚a‚r’Ş‚èƒrƒWƒ‡ƒ“
+nsid	0x000400fb	251
+# ƒVƒlƒtƒBƒ‹‚v‚n‚v‚n‚v
+nsid	0x000400fc	252
+# “ú–{‰f‰æê–å‚ƒ‚ˆ
+nsid	0x000400ff	255
+# ƒfƒBƒYƒj[‚ƒ‚ˆ
+nsid	0x00040100	256
+# ƒfƒB[ƒ‰ƒCƒt
+nsid	0x00040102	258

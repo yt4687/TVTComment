@@ -1,0 +1,216 @@
+﻿# 2chスレ設定
+# ここで設定されたチャンネルはchannels.txtにも登録されている必要がある
+# TvRemoteViewer_VB_1.50の2chThreads.jsonなど参考
+
+[boards]
+# id	name	url	mainThreadTitleKeywords
+NHK	番組ch(NHK総合)	http://nhk2.5ch.net/livenhk/subback.html	NHK総合を常に実況し続けるスレ
+ETV	番組ch(Eテレ)	http://nhk2.5ch.net/liveetv/subback.html	NHK教育を見て
+NTV	番組ch(日テレ)	http://himawari.5ch.net/liventv/subback.html	実況 ◆ 日本テレビ
+EX	番組ch(テレ朝)	http://himawari.5ch.net/liveanb/subback.html	実況 ◆ テレビ朝日
+TBS	番組ch(TBS)	http://himawari.5ch.net/livetbs/subback.html	実況 ◆ ＴＢＳテレビ
+TX	番組ch(テレ東)	http://himawari.5ch.net/livetx/subback.html	実況 ◆ テレビ東京
+CX	番組ch(フジ)	http://himawari.5ch.net/livecx/subback.html	実況 ◆ フジテレビ
+MX	番組ch(MX)	http://fate.5ch.net/livemx/subback.html
+BSNHK	BS実況(NHK)	http://nhk2.5ch.net/livebs/subback.html
+BSFREE	BS実況(無料)	http://tanuki.5ch.net/livebs2/subback.html
+BSPAY	BS実況(有料)	http://himawari.5ch.net/livewowow/subback.html
+SKYPER	スカパー実況	http://himawari.5ch.net/liveskyp/subback.html
+BASEBALL	野球ch	http://tanuki.5ch.net/livebase/subback.html
+FOOTBALL	サッカーch	http://rio2016.5ch.net/livefoot/subback.html
+SPORTS	スポーツch	http://mao.5ch.net/dome/subback.html
+ANIME	アニメ特撮実況	http://mao.5ch.net/liveanime/subback.html
+WEST	番組ch(西日本)	http://himawari.5ch.net/livewkwest/subback.html
+LOCAL	番組ch	http://himawari.5ch.net/weekly/subback.html	MX･tvk･テレ玉･チバ･群馬･とちぎ実況
+OLYMPICFEMALE	オリンピック実況(女)	http://mao.5ch.net/oonna/subback.html
+OLYMPICMALE	五輪実況(男)	http://mao.5ch.net/ootoko/subback.html
+ELE	選挙実況	http://fate.5ch.net/liveelection/subback.html
+DIETELE	議会選挙実況	http://mao.5ch.net/kokkai/subback.html
+NANJ	なんでも実況(ジュピター)	http://swallow.5ch.net/livejupiter/subback.html
+NANS	なんでも実況(サターン)	http://mao.5ch.net/livesaturn/subback.html
+NANU	なんでも実況(ウラヌス)	http://fate.5ch.net/liveuranus/subback.html
+
+[threadmapping]
+#target	value	boardid	threadTitleKeywords
+flags	1	NHK
+flags	2	ETV
+flags	4	NTV
+flags	8	TBS
+flags	16	CX
+flags	32	EX
+flags	64	TX
+
+# ＴＯＫＹＯ ＭＸ
+nsid	0x000F5C38	LOCAL
+nsid	0x000F5C39	LOCAL
+
+# テレ玉
+nsid	0x000F7438	LOCAL
+
+# ｔｖｋ
+nsid	0x000F6038	LOCAL
+
+# チバテレビ
+nsid	0x000F6C38	LOCAL
+
+# ＮＨＫＢＳ１
+nsid	0x00040065	BSNHK	BS1
+# ＮＨＫＢＳ１
+nsid	0x00040066	BSNHK	★
+
+# ＮＨＫＢＳプレミアム
+nsid	0x00040067	BSNHK	BSプレミアム
+# ＮＨＫＢＳプレミアム
+nsid	0x00040068	BSNHK	★
+
+# ＢＳ日テレ
+nsid	0x0004008d	BSFREE	BS日テレ
+# ＢＳ日テレ
+nsid	0x0004008e	BSFREE	BS日テレ
+# ＢＳ日テレ
+nsid	0x0004008f	BSFREE	BS日テレ
+
+# ＢＳ朝日
+nsid	0x00040097	BSFREE	BS朝日
+# ＢＳ朝日２
+nsid	0x00040098	BSFREE	BS朝日
+# ＢＳ朝日３
+nsid	0x00040099	BSFREE	BS朝日
+
+# ＢＳ－ＴＢＳ
+nsid	0x000400a1	BSFREE	BS-TBS
+# ＢＳ－ＴＢＳ
+nsid	0x000400a2	BSFREE	BS-TBS
+# ＢＳ－ＴＢＳ
+nsid	0x000400a3	BSFREE	BS-TBS
+
+# ＢＳテレ東
+nsid	0x000400ab	BSFREE	BSテレ東
+# ＢＳテレ東２
+nsid	0x000400ac	BSFREE	BSテレ東
+# ＢＳテレ東３
+nsid	0x000400ad	BSFREE	BSテレ東
+
+# ＢＳフジ
+nsid	0x000400b5	BSFREE	BSフジ
+# ＢＳフジ・１８２
+nsid	0x000400b6	BSFREE	BSフジ
+# ＢＳフジ・１８３
+nsid	0x000400b7	BSFREE	BSフジ
+
+# ＷＯＷＯＷプライム
+nsid	0x000400bf	BSPAY	WOWOWプライム
+
+# ＷＯＷＯＷライブ
+nsid	0x000400c0	BSPAY	WOWOWライブ
+
+# ＷＯＷＯＷシネマ
+nsid	0x000400c1	BSPAY	WOWOWシネマ
+
+# スターチャンネル１
+# nsid	0x000400c8	対応なし
+
+# スターチャンネル２
+# nsid	0x000400c9	対応なし
+
+# スターチャンネル３
+# nsid	0x000400ca	対応なし
+
+# ＢＳ１１イレブン
+nsid	0x000400d3	BSFREE	BS11
+
+# ＢＳ１２トゥエルビ
+nsid	0x000400de	BSFREE	TwellV
+
+# グリーンチャンネル
+nsid	0x000400ea	SKYPER	グリーンチャンネル
+
+# ＢＳアニマックス
+nsid	0x000400ec	SKYPER	アニマックス
+
+# ＢＳスカパー！
+nsid	0x000400f1	BSPAY	BSスカパー！
+
+# 日本映画専門ｃｈ
+nsid	0x000400ff	SKYPER	日本映画専門チャンネル
+
+# ディーライフ
+nsid	0x00040102	BSFREE	Dlife
+
+# 東映チャンネル
+nsid	0x000600da	SKYPER	東映チャンネル
+
+# 映画・ｃｈＮＥＣＯ
+nsid	0x000700df	SKYPER	チャンネルNECO
+
+# 日テレジータス
+nsid	0x00070101	SKYPER	G+
+
+# ＳＫＹ　ＳＴＡＧＥ
+nsid	0x00070122	SKYPER	スカイステージ
+
+# 時代劇専門ｃｈ
+nsid	0x00070124	SKYPER	時代劇専門
+
+# ファミリー劇場
+nsid	0x00070125	SKYPER	ファミリー劇場
+
+# ＭＯＮＤＯ　ＴＶ
+nsid	0x00070127	SKYPER	MONDOTV
+
+# ＴＢＳチャンネル１
+nsid	0x00060128	SKYPER	TBSチャンネル
+
+# ＴＢＳチャンネル２
+nsid	0x00070129	SKYPER	TBSチャンネル
+
+# テレ朝チャンネル１
+nsid	0x0006012a	SKYPER	テレ朝チャンネル
+
+# テレ朝チャンネル２
+nsid	0x0006012b	SKYPER	テレ朝チャンネル
+
+# 日テレプラス
+nsid	0x0007012c	SKYPER	日テレプラス
+
+# エンタメ～テレ
+nsid	0x0007012d	SKYPER	エンタメ～テレ
+
+# 銀河◆歴ドラ・サスペ
+nsid	0x00070131	SKYPER	銀河
+
+# フジテレビＯＮＥ
+nsid	0x00070133	SKYPER	ONE
+
+# フジテレビＴＷＯ
+nsid	0x00070134	SKYPER	TWO
+
+# フジテレビＮＥＸＴ
+nsid	0x00070135	SKYPER	NEXT
+
+# キッズステーション
+nsid	0x0007014a	SKYPER	ｷｯｽﾞｽﾃｰｼｮﾝ
+
+# カートゥーン
+nsid	0x0007014b	SKYPER	カートゥーン
+
+# ＡＴ－Ｘ
+nsid	0x0007014d	SKYPER	AT‐X
+
+# ディスカバリー
+nsid	0x00070154	SKYPER	ﾃﾞｨｽｶﾊﾞ
+
+# アニマルプラネット
+nsid	0x00070155	SKYPER	ｱﾆﾌﾟﾗ
+
+# ヒストリーチャンネル
+nsid	0x00070156	SKYPER	ﾋｽﾄﾘ
+
+# ナショジオ
+nsid	0x00070157	SKYPER	ﾅｼｮｼﾞｵ
+
+# 日テレＮＥＷＳ２４
+nsid	0x0006015d	SKYPER	NEWS24
+
+# ＴＢＳ　ＮＥＷＳ
+nsid	0x0007015f	SKYPER	TBSニュース
